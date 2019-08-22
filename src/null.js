@@ -47,7 +47,7 @@ const req = {
 const res = {
   id: 213123,
   res: {}, // user data
-  sub: {}, // subscription control data
+  str: {}, // stream control data
   err: {} // error
 };
 
@@ -55,7 +55,7 @@ const ev = {
   id: 123123123, // corresponds to
   seq: 0, // sequence of events, start at 0
   res: {}, // user data
-  sub: {}, // subscription control data
+  str: {}, // stream control data
   err: {} // error
 };
 
